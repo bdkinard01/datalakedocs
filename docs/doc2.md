@@ -1,6 +1,7 @@
 ---
 id: doc2
 title: Loading Data
+sidebar_label: Loading Data
 ---
 
 

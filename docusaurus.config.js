@@ -5,8 +5,8 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'KGS', // Usually your GitHub org/user name.
-  projectName: 'datalakedocs', // Usually your repo name.
+  organizationName: 'facebook', // Usually your GitHub org/user name.
+  projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Data Lake Docs',
@@ -22,12 +22,16 @@ module.exports = {
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
+
+        {href: 'https://kochprod.service-now.com/compass',
+         label: 'Compass', 
+         position: 'left'},
         {
           to: 'drivers/',
           activeBasePath: 'drivers',
           label: 'Drivers',
           position: 'left',
-        }
+        },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -39,7 +43,7 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Downloads',
+          title: 'Quick Links',
           items: [
             {
               label: 'Getting Started',
@@ -97,7 +101,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://kochsource.io/BRANDON.KINARD/datalakedocs.git',
+            'https://github.com/facebook/docusaurus/edit/master/website/',
         },
         blog: {
           showReadingTime: true,
