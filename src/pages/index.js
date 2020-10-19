@@ -16,12 +16,11 @@ console.log(window.React1 === window.React2);
 
 const features = [
   {
-    title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: 'Secure Access using KochID',
+    imageUrl: 'img/kochID.png',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+      Content is secure and is protected using KochID. Only registered users will have access.
       </>
     ),
   },
@@ -40,8 +39,8 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Using the React framework allows for fast site rendering in addition to 
+        project intergration. 
       </>
     ),
   },
@@ -79,8 +78,8 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/')}>
-              Get Started
+              to={useBaseUrl('docs/doc1')}>
+              Getting Started
             </Link>
           </div>
         </div>

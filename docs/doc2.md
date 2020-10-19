@@ -60,7 +60,7 @@ If you are a visual learner, I have included a video that outlines these steps b
 <!-- this works
 ![Failed](../static/img/fail.png) -->
 
-[LINK](../static/img/Troubleshooting Failed File Uploads.pdf)
+
 
 **Troubleshooting**
 :::caution
