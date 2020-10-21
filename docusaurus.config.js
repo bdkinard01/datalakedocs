@@ -40,49 +40,49 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Quick Links',
           items: [
-            {
-              label: 'Style Guide',
-              to: 'docs/',
-            },
             {
               label: 'Getting Started',
               to: 'docs/doc1',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'Troubleshooting',
+              to: 'docs/troubleshooting/',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Common Links',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Compass Request Form',
+              href: 'https://kochprod.service-now.com/compass/?id=sc_cat_item&sys_id=113defe6db93b3047eee785e0f961978',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Snowflake Driver Request',
+              href: 'https://kochprod.service-now.com/compass?id=sc_cat_item&sys_id=5e31dacadb061010428baa82ca9619b9',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'GitLab Repo',
+              href: 'https://kochsource.io/BRANDON.KINARD/datalakedocs/-/tree/develop',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'FAQs',
           items: [
             {
-              label: 'Blog',
+              label: 'Help',
               to: 'blog',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Data Lake Dev',
+              href: 'https://datalake-dev.kcs.kochcloud.com/',
+            },
+            {
+              label: 'Data Lake Prod',
+              href: 'https://datalake-prod.kcs.kochcloud.com/',
             },
           ],
         },
