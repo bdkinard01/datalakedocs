@@ -23,8 +23,8 @@ The first time you sign in you will be required to use your User Name and passwo
 
 #### Breakdown
 
-Top:
-At the top of the screen you will see serveral icons.
+**Top:**
+At the top of the screen you will see serveral icons:
 ![](../static/img/snowflakeTopIcons.png)
 -   **Database** = Shows list view of databases you have permission to see.
 -   **Shares** = Provides access to Snowflake Data Sharing (No access by default)
@@ -33,6 +33,24 @@ At the top of the screen you will see serveral icons.
 -   **Worksheets** = Location used to run queries on the data. 
 -   **History** = Provides list of queries run in the Snowflake console. 
 
+You will notice your name along with the role you are signed in with in the upper left corner of the screen. If you have multiple roles assigned, you can change roles here. 
+
+![](../static/img/snowflakeShowRole.png)
+
+**Main:**
+The center of the screen when connected to the Worksheet tab is where you will write and execute queries. The panel below the main section will display the results. You will need to set the context of the Role, Warehouse, Database and Schema before you will be able to query data. 
+![](../static/img/snowflakeMain.png)
+![](../static/img/snowflakeRunQuery.png)
+
+***Default Settings***
+
+![](../static/img/snowflakeDefaults.png)
+
+**Database Objects**
+
+- To the left you will notice a search bar with a list of databases directly below. The ***KCS_DATALAKE*** database is where the files from the Data Lake UI are loaded. Clicking on the ***database*** name will expand the view and list the ***schemas*** associated with the database. Clicking on the ***schema** will expand the remaining objects. 
+
+![](../static/img/snowflakeDB.png)
 
 
 
