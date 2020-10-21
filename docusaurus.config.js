@@ -12,7 +12,7 @@ module.exports = {
       title: 'Data Lake Docs',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/Koch-Logo.svg',
       },
       items: [
         {
@@ -23,9 +23,16 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://kochprod.service-now.com/compass',
+          label: 'Compass',
           position: 'right',
+          src: 'img/compass.png'
+        },
+        {
+          to: 'docs/drivers',
+          activeBasePath: 'docs',
+          label: 'Drivers',
+          position: 'left',          
         },
       ],
     },
