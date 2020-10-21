@@ -3,7 +3,8 @@ module.exports = {
     Docs: 
       [
       'doc1', 
-      'doc2', 
+      'doc2',
+      'doc4', 
       'doc3',
     ],
     Features: 

@@ -34,7 +34,7 @@ export const Highlight = ({children, color}) => (
 - Toggle the Dataset radio button to on and it will change the color to <Highlight color="#1877F2">blue</Highlight>
 - Press Save button in lower left section of the screen to save data set
 
-<h4>Dropping a file</h4>
+<h4>Loading a file</h4>
 
  - Within the data set navigate to the Files tab
  - Click the Upload File button for the file upload screen to appear
