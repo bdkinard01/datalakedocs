@@ -85,5 +85,8 @@ Click on the drop-down menu of the Connect a File or Database to select the data
 You must first logon using the Snowflake console to change from the default password
 :::
 
+### Test Alteryx Connection to Snowflake
+
+
 
 ## Tableau
