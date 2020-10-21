@@ -21,7 +21,6 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://kochprod.service-now.com/compass',
           label: 'Compass',
