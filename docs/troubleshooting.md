@@ -4,13 +4,13 @@ title: Troubleshooting
 sidebar_label: Troubleshooting
 ---
 
-***The Basics***
+### The Basics
 
 The first thing to underestand is what type of files the Data Lake can process. The ideal file would be a flat file. A flat file is free of headers, formatting, formulas, tabs, pictures or anything else that would not easily be converted to table format. This means you may have to make some changes to your file before it will upload successfully. 
 
-**Supported File Types**
+## Supported File Types
 
-***Structured***
+### Structured
 
 Structured files (meaning those with a detectable schema using standard relational query/
 analysis tools) that can be uploaded to the data lake include CSV, XLS and JSON.  Files of
@@ -20,7 +20,7 @@ uploaded to the data lake for raw storage purposes, but no schema detection nor 
 asset(s) will be produced.
 
 
-***Unstructured***
+### Unstructured
 
 Unstructured files (those lacking a detectable schema using standard relational query/
 analysis tools) can be uploaded to the data lake for raw storage/retrieval purposes.  Future
