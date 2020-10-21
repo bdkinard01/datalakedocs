@@ -47,3 +47,37 @@ For instructions on how to complete the form visit [HERE - Snowflake Driver Requ
 
 ## Setting Up Alteryx
 
+1. Get started by logging into Alteryx
+
+2. At the top of the screen select Options > Advanced Options > Manage Data Connections:
+
+![](../static/img/alteryx/manageConnections.png)
+
+3. Click on the "Add Connection" Dropdown:
+
+![](../static/img/alteryx/addConnection.png)
+
+4. Select **"Other"** from the list:
+
+![](../static/img/alteryx/selectOther.png)
+
+5. From the list of connections, select **"ODBC"**:
+
+![](../static/img/alteryx/selectODBC.png)
+
+6. The Snowflake(User) driver you installed should show up in this list. Select it:
+
+![](../static/img/alteryx/selectDataSource.png)
+
+7. Enter your email address for the User Name then press OK. There is no need to enter a the password on this screen.
+
+![](../static/img/alteryx/enterEmail.png)
+
+8. Click on the Save button to save changes:
+
+![](../static/img/alteryx/saveConnection.png)
+
+9. Verify the data connection was created with the type: User
+
+![](../static/img/alteryx/verifyConnection.png)
+

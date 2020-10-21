@@ -3,9 +3,10 @@ id: doc3
 title: Accessing your Data
 ---
 
-## Snowflake
+##    ![](../static/img/Snowflake.png)
 
-### Console Access 
+
+### Snowflake Console Access 
 
 1. Logon to the Snowflake UI environment of your choosing using the links below:
     - Production - https://kcsitsf1.us-east-1.snowflakecomputing.com/console  
@@ -56,6 +57,33 @@ The center of the screen when connected to the Worksheet tab is where you will w
 
 
 ## Alteryx
+
+1. Open the Alteryx application 
+
+![](../static/img/alteryx/alteryx1.png)
+
+2. From the Top menu, drag and drop the "Input Data" icon to the canvas area to bring up the Input Data Configuration Menu
+
+![](../static/img/alteryx/alteryx3.png)
+
+Click on the drop-down menu of the Connect a File or Database to select the data connection:
+
+![](../static/img/alteryx/alteryxDropdown.png)
+
+3. This action will open a new window. Select "Data Sources" from the list to expose a list of all available data sources. Search for and select   **Snowflake ODBC:***
+
+![](../static/img/alteryx/alteryxSnowflake.png)
+
+4. Enter User Name and Password in the Snowflake ODBC Connection Window
+    - User Name: Email Address
+    - Password: Snowflake Password  (Not the default provided)
+
+![](../static/img/alteryx/alteryxSnowflakecreds.png)
+
+
+:::caution
+You must first logon using the Snowflake console to change from the default password
+:::
 
 
 ## Tableau
