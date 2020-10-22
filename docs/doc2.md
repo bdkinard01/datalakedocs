@@ -75,6 +75,9 @@ Don't worry, we have seen this before so we documented some of the common issues
 | Failed                     |       File failed to upload                      |  [Failed Files Troubleshooting](../static/img/TroubleshootingFailedFileUploads.pdf)             |
 | Extraneous Input           | File fails to load. This error name is displayed if you hover over error           |  [Extraneous Input TS](../static/img/extraneousInputError.pdf)                             |
 | Mismatch Input             | File fails to load. This error name is displayed if you hover over error |   [Mismatch Input TS](../static/img/mismatchError.pdf)                           |
-| Boxed Error                |The uploaded files do not match a single column column with the previous schema   |  Link to box error           |
+| Boxed Error                |The uploaded files do not match a single column column with the previous schema   |  [Boxed Error TS](../static/img/BoxedErrorTS.pdf)           |
+
+
+
                                
 
