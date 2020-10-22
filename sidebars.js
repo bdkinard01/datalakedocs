@@ -11,7 +11,7 @@ module.exports = {
       [
       'mdx',
     ],
-    Images: 
+    'Images/Downloads': 
     [
       'underhood',
       'myimages',
