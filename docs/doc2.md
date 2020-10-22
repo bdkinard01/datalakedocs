@@ -11,7 +11,7 @@ Skip to Accessing Data [Accessing your Data.](doc3.md)
 You've gained access to the global group and have successfully logged into the Data Lake, now what? 
 Lets now walk through the steps needed to drop a file into the Data Lake using Content Explorer. 
 
-<h3>Overview</h3>
+### Overview
 
 export const Highlight = ({children, color}) => (
   <span
@@ -49,6 +49,7 @@ export const Highlight = ({children, color}) => (
 :::note
 If you recieve a status other than **COMPLETE**, check the troubleshooting section for more information on how to fix the error.
 :::
+### Video Link
 If you are a visual learner, I have included a video that outlines these steps below. 
 
 <figure class="video_container">
@@ -60,9 +61,9 @@ If you are a visual learner, I have included a video that outlines these steps b
 <!-- this works
 ![Failed](../static/img/fail.png) -->
 
-[LINK](../static/img/Troubleshooting Failed File Uploads.pdf)
 
-**Troubleshooting**
+
+### Troubleshooting
 :::caution
 Recieve an error?
 :::

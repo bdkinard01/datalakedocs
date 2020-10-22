@@ -87,6 +87,17 @@ You must first logon using the Snowflake console to change from the default pass
 
 ### Test Alteryx Connection to Snowflake
 
+1. If the ODBC Data connection to Snowflake was setup correctly, you will be see a screen similar to below. There are tabs at the top of the window that provide different options to access the data. 
+
+:::success
+If you are able to see the Database and tables
+:::
+
+
+![](../static/img/alteryx/atleryxChooseTable.png)
+
 
 
 ## Tableau
+
+TODO once I have the docs from KCS to add to this section. 
