@@ -56,8 +56,9 @@ The center of the screen when connected to the Worksheet tab is where you will w
 
 
 
-## Alteryx
+## Alteryx                                      
 
+![](../static/img/alteryx/alteryxSmall.png)
 1. Open the Alteryx application 
 
 ![](../static/img/alteryx/alteryx1.png)
@@ -99,5 +100,7 @@ If you are able to see the Database and tables
 
 
 ## Tableau
+
+![](../static/img/tableau.png)
 
 TODO once I have the docs from KCS to add to this section. 

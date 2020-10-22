@@ -10,6 +10,11 @@ module.exports = {
     Features: 
       [
       'mdx',
+      'features/deletes',
+      'features/recovery',
+      'features/backups',
+      'features/config',
+      'features/storage',
     ],
     'Images/Downloads': 
     [
