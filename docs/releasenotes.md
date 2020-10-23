@@ -1,5 +1,5 @@
 ---
-id: git
+id: releasenotes
 title: Data Lake Release Notes 
 ---
 
