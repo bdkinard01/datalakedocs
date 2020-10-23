@@ -22,6 +22,12 @@ module.exports = {
           position: 'left',
         },
         {
+          to: 'docs/releasenotes',
+          activeBasePath: 'docs',
+          label: 'Release Notes',
+          position: 'left',
+        },
+        {
           href: 'https://kochprod.service-now.com/compass',
           label: 'Compass',
           position: 'right',
