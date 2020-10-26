@@ -9,6 +9,8 @@ Deletes are controlled by an AWS job the runs at 11PM Nightly. Data is not remov
 
 ## Delete Types 
 
+![Deletes](/img/features/deletes1.png)
+
 ### Data Delete
 
 
@@ -25,6 +27,8 @@ Data is not removed immediately!
 
 
 ### Folder Delete
+
+![Folder](/img/features/folderDelete.png)
 
 ***PURPOSE:***  Removes a folder from the data lake.  The folder must be empty (not contain
 any datasets).
@@ -47,6 +51,8 @@ deletion will be ignored
 
 
 ### Dataset Delete
+
+![Dataset](/img/features/datasetDelete.png)
 
 ***PURPOSE:***   Will remove the asset completely from the data lake.  This includes any raw S3 file storage, configurations, Snowflake schema definitions and views. 
 

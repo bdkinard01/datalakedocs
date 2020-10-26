@@ -10,6 +10,7 @@ title: Data Lake Backups
 
  Within the Base Config option of the Data Lake you will notice a section labeled Backup. This setting is enabled by default.
 
+![Backups](/img/features/backups.png)
 
  #### Key Notes
  
