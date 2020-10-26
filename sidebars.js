@@ -7,7 +7,7 @@ module.exports = {
       'doc4', 
       'doc3',
     ],
-    Features: 
+    'Data Lake Features':
       [
       'mdx',
       'features/deletes',
@@ -15,6 +15,9 @@ module.exports = {
       'features/backups',
       'features/config',
       'features/storage',
+      'features/filereader',
+      'features/static',
+      'features/features',
     ],
     'Images/Downloads': 
     [
