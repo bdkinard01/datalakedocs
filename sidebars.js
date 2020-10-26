@@ -18,6 +18,7 @@ module.exports = {
       'features/filereader',
       'features/static',
       'features/features',
+      'features/atscale',
     ],
     'Images/Downloads': 
     [
