@@ -19,6 +19,7 @@ module.exports = {
       'features/static',
       'features/features',
       'features/atscale',
+      'features/Lakemail',
     ],
     'Images/Downloads': 
     [

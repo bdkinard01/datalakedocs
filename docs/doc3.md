@@ -104,3 +104,91 @@ If you are able to see the Database and tables
 ![](../static/img/tableau.png)
 
 TODO once I have the docs from KCS to add to this section. 
+
+## AtScale
+
+![Backups](/img/atscale/atscalelogon.png)
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+
+
+<Tabs
+  className="atscale-tabs"
+  defaultValue="dev"
+  values={[
+    {label: 'Development', value: 'dev'},
+    {label: 'Production', value: 'prod'},
+  ]}>
+  <TabItem value="dev">
+<ol> 
+    Logging On: 
+<li> Logging into to the Development Atscale environment will require a User name and Password that is created by an admin. Please submit a ticket
+        to the Data Lake Support Queue - <a href="https://kochprod.service-now.com/compass?id=sc_cat_item&sys_id=ef17e2eddb8f1010fbdd0763b99619cf">HERE</a> </li>
+        - Include in request:
+          <ul>  Email address </ul>
+           <ul>  Your Role </ul>
+          <ul>  Business Reason </ul>
+
+
+<li>  Once you are provided with logon information, enter credentials and log on.</li>
+</ol>
+
+  </TabItem>
+
+
+<TabItem value="prod">
+<ol>
+  Logging On:
+ <li> If you are have access to the Data Lake Environment, you will automatically have Read-Only access to Atscale. You will be able to:
+     <ol>Log On</ol>
+     <ol>View Queries</ol>
+     <ol>View Aggregates</ol>
+     <ol>View PUBLISHED cubes</ol>
+     <ol>View support logs</ol>
+    </li> 
+
+<li> Begin by logging in using your Email address and NT Password (used to log into your PC)</li>
+</ol>
+</TabItem>
+</Tabs>
+
+
+### Navigation 
+
+When first logging on you will see a screen similar to this screenshot:
+
+![Atscale](/img/atscale/atscalefirstlogon.png)
+
+
+#### Top
+
+##### Queries:
+
+Provides details on the queries that have been run against the publish cubes that can be filtered and saved. . 
+
+![Queries](/img/atscale/queries.png)
+
+
+##### Aggregates:
+    
+Displays a detailed list of Aggregate definitions and Instances that can be filtered and saved. 
+
+![Aggs](/img/atscale/aggs.png)
+
+##### Support: 
+
+Location where users can access AtScale Documentation link and download the Support Log history for additional troubleshooting.
+
+![Support](/img/atscale/support.png)
+
+#### Center Section
+
+##### Published Cubes:
+
+  The list of available cubes can be found in this section. Clicking into the cube will reveal additional details as well as BI tool connection
+  information. This can also be found in under the Connect tab of the cube.   
+
+![Cube](/img/atscale/cubeDetails.png)

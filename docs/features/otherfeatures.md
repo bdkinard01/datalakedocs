@@ -5,6 +5,8 @@ title: Other Features
 
 ### Spark Scripts 
 
+Spark scripts are a set of transformation steps that can be applied to a file during ingestion. By default, all datasets are compressed in the datalake. However, there are more advanced Spark scripts that can be applied.
+
 ![Tab](/img/features/sparktab.png)
 
 ### Compress
