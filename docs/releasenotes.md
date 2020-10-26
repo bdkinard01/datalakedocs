@@ -10,7 +10,8 @@ title: Data Lake Release Notes
 
 Release Notes
 [Project/KCS Data Lake]
- 
+
+
 Release Features
 Gitlab Feature Release Notes
 [This is usually a paragraph or two from marketing materials listing the major features included in this release. An introduction to the called out features that follow. Use the “Release Features” section if this is a major release, otherwise use the “Enhancements” section.

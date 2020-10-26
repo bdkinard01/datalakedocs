@@ -5,6 +5,7 @@ title: Recover Data in the Data Lake
 
 ### Recover
 
+
 ***PURPOSE:***  This action will replace the queryable data associated with a dataset with a backup version.
 
 All data uploaded to the data lake is backed up by default. You do not have to do anything special to make this happen. Once each day, a copy of each dataset is preserved in a "backup bucket" in case you ever need to recover the dataset or "start over". 

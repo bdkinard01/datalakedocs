@@ -9,8 +9,8 @@ Deletes are controlled by an AWS job the runs at 11PM Nightly. Data is not remov
 
 ## Delete Types 
 
-
 ### Data Delete
+
 
 ***PURPOSE:*** Action will remove the queryable data associated with a dataset.
 
