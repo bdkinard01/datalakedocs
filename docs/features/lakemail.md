@@ -44,5 +44,8 @@ existing dataset path.
 
 The overall size of the email being sent to the lake cannot exceed 10 MB, this is inclusive of text and attachments. To ensure the email and its attachments are successfully processed into the lake ensure attachments do not exceed this limit.
 
-Technical Note: Attached files can be larger than 10 MB because email encoding decreases
-the overall file size
+
+:::caution Technical Note 
+Attached files can be larger than **10 MB** because email encoding decreases
+the overall file size.
+:::
