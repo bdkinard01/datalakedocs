@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Data Lake Documentation',
   tagline: 'The place for Data Lake Knowledge',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://kcs-data-lake-docs.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
