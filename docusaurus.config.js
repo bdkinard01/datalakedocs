@@ -1,9 +1,9 @@
 module.exports = {
   title: 'Data Lake Documentation',
   tagline: 'The place for Data Lake Knowledge',
-  url: 'https://kcs-data-lake-docs.netlify.app',
+  url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'log',
   favicon: 'img/favicon.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
@@ -11,7 +11,7 @@ module.exports = {
     navbar: {
       title: 'Data Lake Docs',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'KGS',
         src: 'img/Koch-Logo.svg',
       },
       items: [
