@@ -5,7 +5,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
-import Routes from 'react-router';
+// import Routes from 'react-router';
 import { MDXProvider } from '@mdx-js/react'; // Map components to HTML elements based on the Markdown syntax. Serves as the React implementation for MDX.
 // import * from 'react-dom';
 import ComponentCreator from '@docusaurus/ComponentCreator';
